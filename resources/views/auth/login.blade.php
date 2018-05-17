@@ -11,7 +11,7 @@
                             <label></label>
 
                             <div class="controls">
-                                <input id="email" type="email" placeholder="E-mail" class="form-control " name="email" value="{{ old('email') }}" required autofocus>
+                                <input id="email" type="email" placeholder="james@doyle.com" class="form-control " name="email" value="{{ old('email') }}" required autofocus>
 
                                 @if ($errors->has('email'))
                                     <span class="help-block">
@@ -25,7 +25,7 @@
                              <label></label>
 
                             <div class="controls">
-                                <input id="password" placeholder="Password" type="password" class="form-control" name="password" required>
+                                <input id="password" placeholder="password" type="password" class="form-control" name="password" required>
 
                                 @if ($errors->has('password'))
                                     <span class="help-block">
