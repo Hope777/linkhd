@@ -1,6 +1,9 @@
 <?php
+
 use Illuminate\Database\Seeder;
+
 use App\Discussion;
+
 class DiscussionsTableSeeder extends Seeder
 {
     /**
@@ -14,6 +17,7 @@ class DiscussionsTableSeeder extends Seeder
         $t2 = 'Pagination in vuejs not working correctly';
         $t3 = 'Vuejs event listeners for child components';
         $t4 = 'Laravel homestead error - undetected database';
+
         $d1 = [
             'title' => $t1,
             'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cupiditate dignissimos repellat ut consectetur corrupti beatae sed blanditiis, delectus odit, sequi possimus suscipit voluptate. Tempore dolorum inventore dolore repudiandae iste.',

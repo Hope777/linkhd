@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use TCG\Voyager\Models\Role;
+use TCG\Voyager\Models\User;
 
 class UserstableSeeder extends Seeder
 {
@@ -10,27 +12,20 @@ class UserstableSeeder extends Seeder
      * @return void
      */
     public function run()
-
     {
         App\User::create([
             'name' => 'admin',
             'password' => bcrypt('admin'),
-            'email' => 'admin@admin.com',
+            'email' => 'admin@udemy-forum.dev',
             'admin' => 1,
             'avatar' => asset('avatars/avatar.png')
         ]);
 
-
-
-           App\User::create([
-            'name' => 'James Doyle',
+        App\User::create([
+            'name' => 'Emily Myers',
             'password' => bcrypt('password'),
-            'email' => 'james@doyle.com',
+            'email' => 'emily@myers.com',
             'avatar' => asset('avatars/avatar.png')
         ]); 
-
-
-
     }
-
 }
