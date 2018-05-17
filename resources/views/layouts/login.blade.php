@@ -6,7 +6,7 @@
     <meta name="robots" content="none" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="admin login">
-    <title>Admin - Voyager</title>
+    <title>Login Link HD</title>
     <link rel="stylesheet" href="http://linkhd.co/vendor/tcg/voyager/assets/css/app.css">
     <style>
         body {
