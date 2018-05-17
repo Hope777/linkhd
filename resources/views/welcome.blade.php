@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://ee.test/vendor/tcg/voyager/assets/css/app.css">
 
         <!-- Styles -->
         <style>
@@ -62,24 +63,46 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            div.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+img.logo {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-150%;
+    margin-left:-50%;
+}
         </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-           
 
+
+
+    <body>    <div class="shadow"><img class="logo" src="http://ee.test/vendor/tcg/voyager/assets/images/logo.png" /></div>
+        <div class="flex-center position-ref full-height">
             <div class="content">
+                <div class="logo-title-container"> 
+                                                <div class="copy animated fadeIn">
+                        
+
+                        </div><h3>Link Help Desk</h3>
+                    </div> <!-- .logo-title-container -->
                 <div class="title m-b-md">
                    <a href="/forum" style="text-decoration: none; color: white;">FORUM</a> |
                      <a href="/booking" style="text-decoration: none; color: white;">BOOKING</a>
                 </div>
-
                 <div class="links">
                     <a href="{{ route('social.auth', ['provider' => 'github']) }}">GitHub</a>
                     <a href="{{ route('social.auth', ['provider' => 'facebook']) }}">Facebook</a>
                     <a href="/login">Login</a>
+
                 </div>
             </div>
         </div>
+
     </body>
 </html>
