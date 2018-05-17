@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="admin login">
     <title>Admin - Voyager</title>
-    <link rel="stylesheet" href="http://zero.test/vendor/tcg/voyager/assets/css/app.css">
+    <link rel="stylesheet" href="http://linkhd.co/vendor/tcg/voyager/assets/css/app.css">
     <style>
         body {
-            background-image:url('http://zero.test/vendor/tcg/voyager/assets/images/bg.jpg');
+            background-image:url('http://linkhd.co/vendor/tcg/voyager/assets/images/bg.jpg');
             background-color: #FFFFFF;
         }
         body.login .login-sidebar {
@@ -40,7 +40,7 @@
             <div class="clearfix">
                 <div class="col-sm-12 col-md-10 col-md-offset-2">
                     <div class="logo-title-container">
-                                                                        <img class="img-responsive pull-left logo hidden-xs animated fadeIn" src="http://zero.test/vendor/tcg/voyager/assets/images/logo-icon-light.png" alt="Logo Icon">
+                                                                        <img class="img-responsive pull-left logo hidden-xs animated fadeIn" src="http://linkhd.co/vendor/tcg/voyager/assets/images/logo-icon-light.png" alt="Logo Icon">
                                                 <div class="copy animated fadeIn">
                             <h1>Link Help Desk</h1>
                             <p>Room Booking | Forum</p>
@@ -59,7 +59,7 @@
               @yield('content')
 
               <div style="clear:both"></div>
-<img class="img-responsive pull-left logo hidden-xs animated fadeIn" src="http://zero.test/vendor/tcg/voyager/assets/images/logo-icon-light.png" alt="Logo Icon">
+<img class="img-responsive pull-left logo hidden-xs animated fadeIn" src="http://linkhd.co/vendor/tcg/voyager/assets/images/logo-icon-light.png" alt="Logo Icon">
               
             </div> <!-- .login-container -->
 
