@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Link HD</title>
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -75,14 +75,14 @@ img.logo {
     position:relative;
     max-width:100%;
     max-height:100%;
-    margin-top:-150%;
+    margin-top:-360%;
     margin-left:-50%;
 }
         </style>
 
 
 
-    <body>    <div class="shadow"><img class="logo" src="http://ee.test/vendor/tcg/voyager/assets/images/logolink.png" /></div>
+    <body>    <div class="shadow"><img class="logo" src="http://ee.test/vendor/tcg/voyager/assets/images/logolink.jpg" /></div>
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="logo-title-container"> 
