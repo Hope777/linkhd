@@ -82,7 +82,7 @@ img.logo {
 
 
 
-    <body>    <div class="shadow"><img class="logo" src="http://ee.test/vendor/tcg/voyager/assets/images/logo.png" /></div>
+    <body>    <div class="shadow"><img class="logo" src="http://ee.test/vendor/tcg/voyager/assets/images/logolink.png" /></div>
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="logo-title-container"> 
