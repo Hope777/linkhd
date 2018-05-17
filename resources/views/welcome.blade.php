@@ -9,12 +9,12 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://ee.test/vendor/tcg/voyager/assets/css/app.css">
+    <link rel="stylesheet" href="http://linkhd.co/vendor/tcg/voyager/assets/css/app.css">
 
         <!-- Styles -->
         <style>
             html, body {
-            background-image:url('http://ee.test/vendor/tcg/voyager/assets/images/bg.jpg');
+            background-image:url('http://linkhd.co/vendor/tcg/voyager/assets/images/bg.jpg');
                 color: #fff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
