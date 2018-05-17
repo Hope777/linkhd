@@ -1,8 +1,10 @@
 <?php
+
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-class CreateWatchersTable extends Migration
+
+class CreateChannelsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -11,13 +13,14 @@ class CreateWatchersTable extends Migration
      */
     public function up()
     {
-        Schema::create('watchers', function (Blueprint $table) {
+        Schema::create('channels', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('discussion_id')->unsigned();
-            $table->integer('user_id')->unsigned();
+            $table->string('title');
+            $table->string('slug');
             $table->timestamps();
         });
     }
+`
     /**
      * Reverse the migrations.
      *
@@ -25,6 +28,6 @@ class CreateWatchersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('watchers');
+        Schema::dropIfExists('channels');
     }
 }

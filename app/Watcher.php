@@ -1,6 +1,9 @@
 <?php
+
 namespace App;
+
 use Illuminate\Database\Eloquent\Model;
+
 class Watcher extends Model
 {
     protected $fillable = ['discussion_id','user_id'];
@@ -9,6 +12,7 @@ class Watcher extends Model
     {
         return $this->belongsTo('App\User');
     }
+
     public function discussion()
     {
         return $this->belongsTo('App\Discussion');

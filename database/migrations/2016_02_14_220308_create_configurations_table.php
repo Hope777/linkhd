@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLikesTable extends Migration
+class CreateConfigurationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +12,13 @@ class CreateLikesTable extends Migration
      */
     public function up()
     {
-        Schema::create('likes', function (Blueprint $table) {
+        Schema::create('configurations', function($table) {
             $table->increments('id');
+            $table->integer('time_interval_id');
+            // $table->foreign('time_interval_id')
+            //     ->references('id')
+            //     ->on('time_intervals')
+            //     ->onDelete('set null');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreateLikesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('likes');
+        Schema::drop('configurations');
     }
 }
