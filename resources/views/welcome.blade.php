@@ -14,7 +14,7 @@
         <style>
             html, body {
             background-image:url('http://ee.test/vendor/tcg/voyager/assets/images/bg.jpg');
-                color: #636b6f;
+                color: #fff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -50,7 +50,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -70,8 +70,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <a href="/forum" style="text-decoration: none; color: black;">FORUM</a> |
-                     <a href="/booking" style="text-decoration: none; color: black;">BOOKING</a>
+                   <a href="/forum" style="text-decoration: none; color: white;">FORUM</a> |
+                     <a href="/booking" style="text-decoration: none; color: white;">BOOKING</a>
                 </div>
 
                 <div class="links">
