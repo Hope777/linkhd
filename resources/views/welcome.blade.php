@@ -5,8 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-           <title>Link Help Desk</title>
-
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -14,9 +13,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #fff;
-                font-family: 'Avenir', sans-serif;
+            background-image:url('http://ee.test/vendor/tcg/voyager/assets/images/bg.jpg');
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
@@ -51,7 +50,7 @@
             }
 
             .links > a {
-                color: #FFFFFF;
+                color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -64,28 +63,6 @@
                 margin-bottom: 30px;
             }
         </style>
-         <style>
-        body {
-            background-image:url('http://ee.test/vendor/tcg/voyager/assets/images/back.jpg');
-            background-color: #FFFFFF;
-        }
-        body.login .login-sidebar {
-            border-top:5px solid #22A7F0;
-        }
-        @media (max-width: 767px) {
-            body.login .login-sidebar {
-                border-top:0px !important;
-                border-left:5px solid #22A7F0;
-            }
-        }
-        body.login .form-group-default.focused{
-            border-color:#22A7F0;
-        }
-        .login-button, .bar:before, .bar:after{
-            background:#22A7F0;
-        }
-    </style>
-
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -93,8 +70,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <a href="/forum" style="text-decoration: none; color: white;">FORUM</a> |
-                     <a href="/booking" style="text-decoration: none; color: white;">BOOKING</a>
+                   <a href="/forum" style="text-decoration: none; color: black;">FORUM</a> |
+                     <a href="/booking" style="text-decoration: none; color: black;">BOOKING</a>
                 </div>
 
                 <div class="links">
