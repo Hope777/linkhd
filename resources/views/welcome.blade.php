@@ -70,13 +70,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <a href="/forum" style="text-decoration: none; color: black;"> V2 Forum</a>
+                   <a href="/forum" style="text-decoration: none; color: black;">FORUM</a> |
+                     <a href="/booking" style="text-decoration: none; color: black;">BOOKING</a>
                 </div>
 
                 <div class="links">
                     <a href="{{ route('social.auth', ['provider' => 'github']) }}">GitHub</a>
                     <a href="{{ route('social.auth', ['provider' => 'facebook']) }}">Facebook</a>
-                    <a href="/login">Email</a>
+                    <a href="/login">Login</a>
                 </div>
             </div>
         </div>
